@@ -2,55 +2,61 @@
 <html>
 <head>
   <title>Broadway Design</title>
-  <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+  <link href="./resources/style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-  <h1>Broadway Design</h1>
+  <div class="newyork">
+  <h1 id="title">Broadway Design</h1>
 
 <!--Navigation Bar-->
-  <nav>
-      <p><a href="#home">Home</a></p>
-      <p><a href="#about" target="_blank">About</a></p>
-      <p><a href="#work" target="_blank">Work</a></p>
-      <p><a href="#team" target="_blank">Team</a></p>
-      <p><a href="#contact" target="_blank">Contact</a></p>
-  </nav>
-
-  <div>
-    <h2>Our Process</h2>
-    <img src="./resources/images/identify.svg"/>
-    <h3>Identify</h3>
-    <p>We focus on the most important details.</p>
-    <img src="./resources/images/understand.svg"/>
-    <h3>Understand</h3>
-    <p>We study our projects inside and out.</p>
-    <img src="./resources/images/execute.svg"/>
-    <h3>Execute</h3>
-    <p>We put everything we have into our work.</p>
+    <nav id="home">
+      <p><a class="navigation" href="#home">Home</a></p>
+      <p><a class="navigation" href="#about">About</a></p>
+      <p><a class="navigation" href="#work">Work</a></p>
+      <p><a class="navigation" href="#team">Team</a></p>
+      <p><a class="navigation" href="#contact">Contact</a></p>
+    </nav>
   </div>
 
-  <div>
-    <h3>Designed in New York</h3>
+
+  <div class="process">
+    <h2 id="about">Our Process</h2>
+    <img src="./resources/images/identify.svg"/>
+    <h3>Identify</h3>
+    <p class="subtext">We focus on the most important details.</p>
+    <img src="./resources/images/understand.svg"/>
+    <h3>Understand</h3>
+    <p class="subtext">We study our projects inside and out.</p>
+    <img src="./resources/images/execute.svg"/>
+    <h3>Execute</h3>
+    <p class="subtext">We put everything we have into our work.</p>
+  </div>
+
+  <div class="newyork">
+    <h3 id="designed">Designed in New York</h3>
   </div>
 
 <!--Working Section-->
   <div>
-    <h3>Portfolio</h3>
+    <h3 id="work">Portfolio</h3>
     <p>Coming soon</p>
-    <h3>Team</h3>
+    <h3 id="team">Team</h3>
     <p>We're Hiring!</p>
-    <h3>Contact</h3>
+    <h3 id="contact">Contact</h3>
     <p>Phone: (555)-555-5555</p>
     <p>Email: test@email.com</p>
     <p>Twitter: @test</p>
   </div>
 
   <!--Footer-->
-  <p>&copy Broadway 2017 <a href="#home">Home</a>
-    <a href="#about" target="_blank">About</a>
-    <a href="#work" target="_blank">Work</a>
-    <a href="#team" target="_blank">Team</a>
-    <a href="#contact" target="_blank">Contact</a>
+  <div class="footer">
+    <p>&copy Broadway 2017
+      <a class="navigation" href="#home">Home</a>
+      <a class="navigation" href="#about">About</a>
+      <a class="navigation" href="#work">Work</a>
+      <a class="navigation" href="#team">Team</a>
+      <a class="navigation" href="#contact">Contact</a>
     </p>
+  </div>
 </body>
 </html>
